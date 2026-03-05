@@ -168,7 +168,7 @@ Copie o código abaixo, salve como `index.html` e suba para a sua hospedagem:
         <p class="message">
             Olha, meu programador está trabalhando a todo vapor e <strong>quase terminando</strong> tudo por aqui!<br><br>
             Prepare-se para algo incrível. <br>
-            <span class="author-name">— [SEU NOME AQUI]</span>
+            <span class="author-name">— Felipe de Godoi</span>
         </p>
 
         <div class="countdown">
@@ -262,21 +262,16 @@ Copie o código abaixo, salve como `index.html` e suba para a sua hospedagem:
 🛠️ Como personalizar
 Você pode deixar a página com a sua cara alterando algumas linhas simples no código:
 
-1. Mudar o seu nome
-Procure pela linha que contém o texto e substitua pelo seu nome:
-
-HTML
-<span class="author-name">— [SEU NOME AQUI]</span>
-2. Alterar as Cores (Tema Neon)
-O esquema de cores está configurado no topo do CSS, nas variáveis :root. Troque o Verde e Azul por outras cores:
+1. Alterar as Cores (Tema Neon)
+O esquema de cores está configurado no topo do CSS, nas variáveis :root. Troque o Verde e Azul por outras cores se preferir:
 
 CSS
 :root {
     --primary: #00ff88; /* Mude o HEX aqui */
     --secondary: #00b8ff; /* Mude o HEX aqui */
 }
-3. Configurar a Data Final da Contagem Regressiva
-Se você quiser uma data fixa para o lançamento (exemplo: final de 2026), mude a lógica do script JavaScript:
+2. Configurar a Data Final da Contagem Regressiva
+Se você quiser uma data fixa para o lançamento (exemplo: final do ano), mude a lógica do script JavaScript:
 
 De:
 
@@ -290,10 +285,10 @@ JavaScript
 // Coloque o Mês (em inglês), Dia, Ano e a Hora
 const countDownDate = new Date("Dec 31, 2026 23:59:59").getTime();
 👨‍💻 Autor
-Criado e idealizado por [SEU NOME].
+Criado e idealizado por Felipe de Godoi (e seu dev trabalhando a todo vapor!).
 
 Conecte-se comigo:
 
-LinkedIn
+https://www.instagram.com/degodoi.felipe
 
-Portfólio
+https://www.linkedin.com/in/degodoi/
