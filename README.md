@@ -15,7 +15,8 @@
 
 ## 📸 Preview
 
-> *(Coloque aqui um print da sua página rodando: `![Preview do Projeto](link-da-imagem.png)`)*
+[![Preview do Projeto](https://prnt.sc/tJOQ3EShUvPL)](https://prnt.sc/tJOQ3EShUvPL)
+*Clique na imagem para ampliar caso não carregue automaticamente.*
 
 ---
 
@@ -257,3 +258,42 @@ Copie o código abaixo, salve como `index.html` e suba para a sua hospedagem:
     </script>
 </body>
 </html>
+
+🛠️ Como personalizar
+Você pode deixar a página com a sua cara alterando algumas linhas simples no código:
+
+1. Mudar o seu nome
+Procure pela linha que contém o texto e substitua pelo seu nome:
+
+HTML
+<span class="author-name">— [SEU NOME AQUI]</span>
+2. Alterar as Cores (Tema Neon)
+O esquema de cores está configurado no topo do CSS, nas variáveis :root. Troque o Verde e Azul por outras cores:
+
+CSS
+:root {
+    --primary: #00ff88; /* Mude o HEX aqui */
+    --secondary: #00b8ff; /* Mude o HEX aqui */
+}
+3. Configurar a Data Final da Contagem Regressiva
+Se você quiser uma data fixa para o lançamento (exemplo: final de 2026), mude a lógica do script JavaScript:
+
+De:
+
+JavaScript
+const targetDate = new Date();
+targetDate.setDate(targetDate.getDate() + 7); 
+const countDownDate = targetDate.getTime();
+Para:
+
+JavaScript
+// Coloque o Mês (em inglês), Dia, Ano e a Hora
+const countDownDate = new Date("Dec 31, 2026 23:59:59").getTime();
+👨‍💻 Autor
+Criado e idealizado por [SEU NOME].
+
+Conecte-se comigo:
+
+LinkedIn
+
+Portfólio
